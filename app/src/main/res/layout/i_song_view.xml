@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rounded_square">
+
+    <ImageView
+        android:id="@+id/coverImageView"
+        android:layout_width="@dimen/image_standard"
+        android:layout_height="@dimen/image_standard"
+        android:layout_margin="@dimen/quad_padding"
+        tools:background="@color/teal_700"/>
+
+    <TextView
+        android:id="@+id/nameTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/single_padding"
+        android:layout_marginLeft="@dimen/quad_padding"
+        android:layout_marginRight="@dimen/quad_padding"
+        android:textColor="@color/text_primary"
+        tools:text="A very long song name that is long"/>
+
+    <TextView
+        android:id="@+id/artistTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/quad_padding"
+        android:layout_marginLeft="@dimen/quad_padding"
+        android:layout_marginRight="@dimen/quad_padding"
+        android:textColor="@color/text_secondary"
+        tools:text="BoyWithUke"/>
+
+
+
+</LinearLayout>

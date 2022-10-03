@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SongView">
+        <attr name="song" format="string" />
+        <attr name="artist" format="string" />
+        <attr name="album" format="string"/>
+        <attr name="cover" format="string"/>
+    </declare-styleable>
+</resources>
